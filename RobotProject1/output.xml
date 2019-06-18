@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190617 16:43:00.035" rpa="false">
+<suite id="s1" name="TestSuite1" source="C:\Users\SuganyaPalanivel\eclipse-workspace\RobotProject1\Test\TestSuite1.robot">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in SS</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.285" level="INFO">I am in SS</msg>
+<status status="PASS" starttime="20190617 16:43:00.285" endtime="20190617 16:43:00.285"></status>
+</kw>
+<test id="s1-t1" name="MyFirstTest">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TS</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.286" level="INFO">I am in TS</msg>
+<status status="PASS" starttime="20190617 16:43:00.286" endtime="20190617 16:43:00.287"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World...</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.287" level="INFO">Hello World...</msg>
+<status status="PASS" starttime="20190617 16:43:00.287" endtime="20190617 16:43:00.287"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TT</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.288" level="INFO">I am in TT</msg>
+<status status="PASS" starttime="20190617 16:43:00.288" endtime="20190617 16:43:00.288"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20190617 16:43:00.286" endtime="20190617 16:43:00.288" critical="yes"></status>
+</test>
+<test id="s1-t2" name="MyFirstTest1">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TS</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.291" level="INFO">I am in TS</msg>
+<status status="PASS" starttime="20190617 16:43:00.290" endtime="20190617 16:43:00.291"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World1...</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.291" level="INFO">Hello World1...</msg>
+<status status="PASS" starttime="20190617 16:43:00.291" endtime="20190617 16:43:00.291"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.292" level="INFO">Set tag 'regression'.</msg>
+<status status="PASS" starttime="20190617 16:43:00.292" endtime="20190617 16:43:00.292"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.293" level="INFO">Removed tag 'regression'.</msg>
+<status status="PASS" starttime="20190617 16:43:00.292" endtime="20190617 16:43:00.294"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TT</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.295" level="INFO">I am in TT</msg>
+<status status="PASS" starttime="20190617 16:43:00.294" endtime="20190617 16:43:00.295"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20190617 16:43:00.289" endtime="20190617 16:43:00.295" critical="yes"></status>
+</test>
+<test id="s1-t3" name="MyFirstTest2">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TS</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.297" level="INFO">I am in TS</msg>
+<status status="PASS" starttime="20190617 16:43:00.297" endtime="20190617 16:43:00.297"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World2...</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.298" level="INFO">Hello World2...</msg>
+<status status="PASS" starttime="20190617 16:43:00.297" endtime="20190617 16:43:00.298"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in TT</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.298" level="INFO">I am in TT</msg>
+<status status="PASS" starttime="20190617 16:43:00.298" endtime="20190617 16:43:00.298"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20190617 16:43:00.296" endtime="20190617 16:43:00.299" critical="yes"></status>
+</test>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am in ST</arg>
+</arguments>
+<msg timestamp="20190617 16:43:00.300" level="INFO">I am in ST</msg>
+<status status="PASS" starttime="20190617 16:43:00.300" endtime="20190617 16:43:00.300"></status>
+</kw>
+<status status="PASS" starttime="20190617 16:43:00.039" endtime="20190617 16:43:00.300"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0">sanity</stat>
+<stat pass="1" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="TestSuite1">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
