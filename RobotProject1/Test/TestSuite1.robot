@@ -21,6 +21,9 @@ MyFirstTest1
 MyFirstTest2
     Log    Hello World2...  
     
+MyFirstTest3
+    Log    Hello World3... 
+    
 # FirstSeleniumTest
     # Login
     # # Click Button    name=btnK    
